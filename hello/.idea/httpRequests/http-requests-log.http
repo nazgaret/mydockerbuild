@@ -1,0 +1,21 @@
+POST http://127.0.0.1:8801/api/v1/session/
+Content-Type: application/json
+
+{
+"paymentID": 3,
+"merchantID": "5fb537ef5b5617c8d5f6c72b",
+"userID": "555785",
+"paymentDirection": [{
+     "name": "name",
+     "shop": "shop"
+}],
+"amount": 666,
+"currency": "5555555",
+"language": "5555555",
+"redirectUrl": "5555555",
+"operation": "5555555",
+"type": "5555555"
+}
+
+###
+
